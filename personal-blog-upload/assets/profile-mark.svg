@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" role="img" aria-label="个人主页标识">
+  <rect width="320" height="320" rx="36" fill="#171916"/>
+  <path d="M64 242V78h42l78 103V78h72v164h-42L136 139v103H64Z" fill="#F7F8F4"/>
+  <path d="M64 242h72V139l78 103h42L106 78H64v164Z" fill="#0F8B8D" opacity=".72"/>
+  <path d="M106 78h78v103l30 39V78h42v164h-42L106 100V78Z" fill="#E45D3F" opacity=".84"/>
+  <path d="M64 242h72v-52l40 52h80v-34H64v34Z" fill="#B8D84A" opacity=".9"/>
+</svg>

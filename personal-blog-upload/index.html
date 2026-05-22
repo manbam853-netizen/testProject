@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="你的昵称的个人博客，记录生活、观察、创作和慢慢想清楚的事。">
+    <title>你的昵称 | 个人博客</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header" id="top">
+      <a class="brand" href="#top" aria-label="返回顶部">
+        <span class="brand-mark">N</span>
+        <span>你的昵称</span>
+      </a>
+      <nav class="site-nav" aria-label="主导航">
+        <a href="#essays">文章</a>
+        <a href="#about">关于</a>
+        <a href="#updates">更新</a>
+        <a href="#contact">联系</a>
+      </nav>
+      <button class="icon-button" id="themeToggle" type="button" aria-label="切换主题" title="切换主题">
+        <svg aria-hidden="true" viewBox="0 0 24 24">
+          <path d="M12 3v2.4M12 18.6V21M4.2 4.2l1.7 1.7M18.1 18.1l1.7 1.7M3 12h2.4M18.6 12H21M4.2 19.8l1.7-1.7M18.1 5.9l1.7-1.7"></path>
+          <circle cx="12" cy="12" r="4.1"></circle>
+        </svg>
+      </button>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">个人博客 / 生活随笔 / 温柔科技感</p>
+          <h1 id="hero-title">把日常里的微光，慢慢写清楚。</h1>
+          <p class="hero-lede">
+            这里是你的昵称的个人博客。记录生活里的细小线索、偶尔闪现的念头，
+            也记录我如何在屏幕、城市和纸页之间，重新理解自己正在经历的事。
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#essays">
+              <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3h11A2.5 2.5 0 0 1 20 5.5v13A1.5 1.5 0 0 1 18.5 20H7a3 3 0 0 0-3 3V5.5Z"></path><path d="M8 7h8M8 11h7M8 15h5"></path></svg>
+              进入文章
+            </a>
+            <a class="button ghost" href="#about">
+              <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M20 21a8 8 0 0 0-16 0"></path><circle cx="12" cy="7" r="4"></circle></svg>
+              认识我
+            </a>
+          </div>
+        </div>
+        <figure class="hero-visual">
+          <img src="assets/hero-soft-tech.png" alt="柔和光线里，一个虚构人物在桌前记录想法，周围有轻微抽象数据流。">
+          <figcaption>
+            <strong>今日记号</strong>
+            <span>把一个没想透的问题，先诚实地写下来。</span>
+          </figcaption>
+        </figure>
+      </section>
+
+      <section class="section mood-strip" aria-label="博客主题">
+        <div>
+          <span>01</span>
+          <strong>生活随笔</strong>
+          <p>写下那些不够宏大、但确实改变心情的小事。</p>
+        </div>
+        <div>
+          <span>02</span>
+          <strong>观察记录</strong>
+          <p>从路灯、屏幕、一次对话里，捕捉世界的纹理。</p>
+        </div>
+        <div>
+          <span>03</span>
+          <strong>创作笔记</strong>
+          <p>记录想法从混沌到成形，也允许它们暂时停在半路。</p>
+        </div>
+      </section>
+
+      <section class="section" id="essays" aria-labelledby="essays-title">
+        <div class="section-heading">
+          <div>
+            <p class="section-kicker">Featured Essays</p>
+            <h2 id="essays-title">精选文章入口</h2>
+          </div>
+          <p class="section-note">先放三篇样例文章，之后可以替换成真实标题和链接。</p>
+        </div>
+        <div class="article-grid">
+          <article class="article-card">
+            <a href="#" aria-label="阅读生活随笔：窗边那一点慢下来的光">
+              <img src="assets/cover-life-notes.png" alt="窗边桌面、笔记本和柔和光线。">
+              <div class="article-body">
+                <p>生活随笔</p>
+                <h3>窗边那一点慢下来的光</h3>
+                <span>有些答案不是想出来的，是在某个安静时刻里，自己浮上来的。</span>
+              </div>
+            </a>
+          </article>
+          <article class="article-card">
+            <a href="#" aria-label="阅读观察记录：一座城市在雨后变得柔软">
+              <img src="assets/cover-observations.png" alt="雨后城市街道和温暖窗光。">
+              <div class="article-body">
+                <p>观察记录</p>
+                <h3>一座城市在雨后变得柔软</h3>
+                <span>我喜欢看那些没人急着解释的画面，它们常常比结论更诚实。</span>
+              </div>
+            </a>
+          </article>
+          <article class="article-card">
+            <a href="#" aria-label="阅读创作笔记：草稿也是一种抵达">
+              <img src="assets/cover-creative-notes.png" alt="带屏幕微光的创作桌面、草稿和纸页。">
+              <div class="article-body">
+                <p>创作笔记</p>
+                <h3>草稿也是一种抵达</h3>
+                <span>写作和做东西很像：先搭一个能呼吸的骨架，再慢慢把心放进去。</span>
+              </div>
+            </a>
+          </article>
+        </div>
+      </section>
+
+      <section class="section two-column" id="about" aria-labelledby="about-title">
+        <div>
+          <p class="section-kicker">About</p>
+          <h2 id="about-title">关于这个博客</h2>
+        </div>
+        <div class="prose">
+          <p>
+            我把这里当成一张慢慢长出来的桌面：有随手放下的句子，有还没完全想清楚的问题，
+            也有某天忽然想认真保存的画面。
+          </p>
+          <p>
+            我喜欢柔和一点的科技感，因为它像现实生活本身：屏幕会发光，数据会流动，
+            但真正让人留下来的，仍然是某个具体的人、某段沉默、某次重新开始。
+          </p>
+          <div class="tag-row" aria-label="博客关键词">
+            <span>慢记录</span>
+            <span>生活观察</span>
+            <span>创作过程</span>
+            <span>柔和科技感</span>
+            <span>个人随笔</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section two-column" id="updates" aria-labelledby="updates-title">
+        <div>
+          <p class="section-kicker">Recent Notes</p>
+          <h2 id="updates-title">最近更新</h2>
+        </div>
+        <ol class="timeline">
+          <li>
+            <time datetime="2026-05-22">2026.05.22</time>
+            <div>
+              <h3>给博客换了一层更柔和的光</h3>
+              <p>把冷硬的科技感收起来一点，留下屏幕微光、纸页和生活的温度。</p>
+            </div>
+          </li>
+          <li>
+            <time datetime="2026-05-18">2026.05.18</time>
+            <div>
+              <h3>整理了三个写作栏目</h3>
+              <p>生活随笔、观察记录、创作笔记，分别安放不同密度的想法。</p>
+            </div>
+          </li>
+          <li>
+            <time datetime="2026-05-10">2026.05.10</time>
+            <div>
+              <h3>开始把零散的念头搬到这里</h3>
+              <p>先不急着完整，先让它们有一个能被再次遇见的位置。</p>
+            </div>
+          </li>
+        </ol>
+      </section>
+
+      <section class="section contact-section" id="contact" aria-labelledby="contact-title">
+        <div>
+          <p class="section-kicker">Contact</p>
+          <h2 id="contact-title">如果你也在记录一些细小的事</h2>
+          <p>可以从一封邮件开始。这里的链接都是占位，替换成你的真实邮箱和社交主页即可。</p>
+        </div>
+        <div class="contact-panel">
+          <a class="button primary" href="mailto:hello@example.com">
+            <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 6.5A2.5 2.5 0 0 1 6.5 4h11A2.5 2.5 0 0 1 20 6.5v11A2.5 2.5 0 0 1 17.5 20h-11A2.5 2.5 0 0 1 4 17.5z"></path><path d="m5 6 7 6 7-6"></path></svg>
+            hello@example.com
+          </a>
+          <button class="button ghost" type="button" id="copyEmail">
+            <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M8 8.5A2.5 2.5 0 0 1 10.5 6h6A2.5 2.5 0 0 1 19 8.5v8a2.5 2.5 0 0 1-2.5 2.5h-6A2.5 2.5 0 0 1 8 16.5z"></path><path d="M5 15.5V6.8A1.8 1.8 0 0 1 6.8 5H15"></path></svg>
+            复制邮箱
+          </button>
+          <div class="social-links" aria-label="社交链接">
+            <a href="#">即刻</a>
+            <a href="#">小红书</a>
+            <a href="#">GitHub</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>© <span id="year"></span> 你的昵称</span>
+      <a href="#top">回到顶部</a>
+    </footer>
+
+    <div class="toast" id="toast" role="status" aria-live="polite">已复制邮箱</div>
+    <script src="script.js"></script>
+  </body>
+</html>
